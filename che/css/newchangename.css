@@ -1,0 +1,120 @@
+nav{
+	width:6.4rem;
+	background-color:rgb(233,233,233);
+	height:auto;
+	overflow:auto;
+}
+nav>a{
+	display:block;
+	width:2.1rem;
+	height: 0.6rem;
+	border-right: 0.04rem solid #bbb;
+	border-bottom:0.04rem solid #bbb;
+	float:left;
+	font-size:0.3rem;
+	text-align:center;
+	line-height:0.6rem;
+	color:#222;
+	font-weight: bold;
+	text-decoration: none;
+	font-family:"微软雅黑";
+}
+nav>a:hover{
+	background-color:#fff;
+}
+div.info{
+	width:6.4rem;
+	height:auto;
+	overflow: auto;
+}
+div.info>h3{
+	width:6.4rem;
+	height:0.5rem;
+	font-size:0.3rem;
+	font-family:"微软雅黑";
+	text-align:center;
+	line-height:0.5rem;
+	color:#555;
+	margin-bottom: 0.2rem;
+}
+div.info>section>img{
+	width:2.8rem;
+	height:auto;
+	margin:0.1rem;
+	float:left;
+}
+div.info>section>p{
+	float:left;
+	width:3rem;
+	font-family: "微软雅黑";
+	line-height: 0.4rem;
+	height:auto;
+	margin:0rem;
+}
+div.info>section .t{
+	font-size: 0.3rem;
+	color:#555;
+	/*line-height: 0.3rem;*/
+	display:block;
+	line-height: 0.5rem;
+}
+div.info>section .p{
+	font-size: 0.25rem;
+	color:#22f;
+	line-height: 0.3rem;
+}
+div.info>section .inf{
+	font-size: 0.25rem;
+	width:6rem;
+	height:auto;
+	overflow: auto;
+	margin:0.1rem;
+	clear:both;	
+}
+div.info>section>.inf>span{
+	display: block;
+	width:2.5rem;
+	height:0.4rem;
+	margin:0.1rem;
+	float:left;
+	line-height: 0.4rem;
+}
+div.form{
+	width:6.4rem;
+	height:auto;
+	overflow: auto;
+	margin-bottom: 0.1rem;
+}
+div.form p{
+	width: 6rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	font-size: 0.3rem;
+	margin:0.1rem;
+}
+div.form p>span{
+	width:2.5rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	font-size: 0.3rem;
+	display: block;
+	text-align:right;
+	float:left;
+	font-family:"微软雅黑";
+}
+div.form p .txt{
+	width:2.5rem;
+	height:0.3rem;
+	line-height: 0.4rem;
+	border:solid #888 0.01rem;
+	border-radius:0.02rem;
+	font-size:0.3rem;
+	color:#555;
+}
+div.form p .but{
+	font-size: 0.3rem;
+	width:2.5rem;
+	height: 0.5rem;
+	line-height:0.5rem;
+	border-radius: 0.05rem;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>奇行天下</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="css/newpublic.css" />
+	<link rel="stylesheet" type="text/css" href="css/newindex.css" />
+	<script type="text/javascript">
+		window.onload=function(){
+			document.getElementsByTagName("html")[0].style.fontSize=window.innerWidth*0.15625+"px";
+		};
+	</script>
+</head>
+<body>
+	<header>奇行天下</header>
+	<div id="banner">
+		<div id="contents">
+			<img src="img/index2.jpg" alt="">
+			<img src="img/index3.jpg" alt="">
+			<img src="img/index4.jpg" alt="">
+			<img src="img/index5.jpg" alt="">
+			<img src="img/index6.jpg">
+		</div>
+	</div>
+	<div class="content">
+		<section>
+			<p style="float:left;">
+				<span class="t">二手车市场</span><br />
+				<span>为你提供精品买卖平台</span>
+			</p>
+			<a href="che/newcar.html"><img src="img/index7.jpg"></a>
+		</section>
+		<section>
+			<p>
+				<span class="t">4s店</span>,<br />
+				<span>让你的爱车倍感舒服</span>
+			</p>
+			<img src="img/index8.jpg">
+		</section>
+		<section>
+			<p style="float:left;">
+				<span class="t">驾校</span><br />
+				<span>快捷、方便、简单</span>
+			</p>
+			<img src="img/index9.jpg" />
+		</section>
+		<section>
+			<p>
+				<span class="t">车管家</span><br />
+				<span>放心、保险、快捷</span>
+			</p>
+			<img src="img/index10.jpg">
+		</section>
+	</div>
+	<script type="text/javascript">
+		function marqueeimg(){
+       document.getElementById("banner").scrollLeft+=10;
+       if(document.getElementById("banner").scrollLeft>=window.innerWidth*0.15625*6.4){
+        document.getElementById("contents").appendChild(document.getElementById("contents").children[0]);
+        document.getElementById("banner").scrollLeft=0;
+        clearTimeout(i);
+       }else{
+        i=setTimeout("marqueeimg()",100);
+       }   
+    }
+    j=setInterval("marqueeimg()",1500);
+	</script>
+</body>
+</html>

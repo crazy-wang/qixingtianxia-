@@ -1,0 +1,79 @@
+/*@font-face{
+	font-family:"微软雅黑";
+	src:url("msyh.ttf") format("TrueType");
+}
+*{
+	margin:0px;
+	padding:0px;
+}
+html{
+	font-size:100px;
+}
+header{
+	width:6.4rem;
+	height:1rem;
+	font-size:0.4rem;
+	font-family:"微软雅黑";
+	text-align:center;
+	background:-webkit-linear-gradient(top,rgba...);
+	直接引入public.css代替了，因为3个页面的头部都一样；
+}*/
+#banner{
+	width:6.4rem;
+	height:2.75rem;
+	overflow: hidden;
+	margin:0px;
+	position:relative;
+}
+#banner>#contents{
+	width:32rem;
+	height:2.75rem;
+	margin:0;
+	padding:0;
+	position:absolute;
+}
+#banner>#contents>img{
+	width:6.4rem;
+	height:2.75rem;
+	margin:0rem;
+	padding:0rem;
+	border:0rem;
+	float:left;
+	display:block;
+}
+/*活动图结束*/
+.content{
+	width:6.4rem;
+	height: 9rem;
+	background: url(../img/indexbg.jpg) center top;
+}
+.content>section{
+	font-size: 0.2rem;
+	width:5.4rem;
+	height:2rem;
+	background: rgba(0,0,0,0.5);
+	margin:0.3rem 0.5rem;
+}
+.content>section>p{
+	width:2.4rem;
+	height:1.4rem;
+	float:right;
+	margin:0.24rem 0.12rem;
+}
+.content>section img{
+	width:2.4rem;
+	height:1.4rem;
+	border:solid 0.05rem rgba(233,233,233,1);
+	margin:0.24rem 0.12rem;
+	float:right;
+}
+.content>section>p>span{
+	font-size: 0.2rem;
+	color:#fff;
+	font-family: "微软雅黑";
+}
+.content>section>p>span.t{
+	font-size: 0.35rem;
+	font-weight:bold;
+	margin-bottom:0.2rem;
+}

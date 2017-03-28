@@ -1,0 +1,108 @@
+nav{
+	width:6.4rem;
+	background-color:rgb(233,233,233);
+	height:auto;
+	overflow:auto;
+}
+nav>a{
+	display:block;
+	width:2.1rem;
+	height:0.6rem;
+	float:left;
+	font-size:0.3rem;
+	text-align: center;
+	line-height: 0.6rem;
+	color:#222;
+	text-decoration: none;
+	font-weight:bold;
+	font-family:"微软雅黑";
+	border-right:0.04rem solid #bbb;
+	border-bottom:0.04rem solid #bbb;
+}
+nav>a:hover{
+	background: #fff;
+}
+.banner{
+	width:6.4rem;
+	height:auto;
+}
+.banner>img{
+	width:6.4rem;
+	height:auto;
+}
+.adv{
+	width: 6.4rem;
+	height: auto;
+}
+.adv>.l{
+	width:3.2rem;
+	height:auto;
+	float:left;
+}
+.adv>.r{
+	width:3rem;
+	height: auto;
+}
+.gdc,.buy{
+	width:6.4rem;
+	height:auto;
+	overflow: auto;
+}
+.gdc>h3,.buy>h3{
+	width:6.3rem;
+	height:0.6rem;
+	font-size:0.3rem;
+	line-height: 0.6rem;
+	background: -webkit-linear-gradient(top,rgb(233,233,233) 0%,rgb(200,200,200) 50%,rgb(233,233,233) 100%);
+	padding-left: 0.1rem;
+	color:#222;
+}
+.gdc>section{
+	width:6.4rem;
+	height:auto;
+	overflow: auto;
+	margin-bottom: 0.2rem;
+}
+.gdc>section>img{
+	width:2.8rem;
+	height:auto;
+	margin:0.05rem 0.1rem;
+	float:left;
+}
+.gdc>section>p{
+	margin:0.1rem;
+	height:auto;
+	width:3rem;
+	float:right;
+	line-height: 0.35rem;
+	font-family: "微软雅黑" 
+}
+.gdc>section>p>.title{
+	font-size: 0.3rem;
+	color:#555;
+}
+.gdc>section>p>.price{
+	font-size: 0.3rem;
+	color:#00a;
+}
+.gdc>section>p>.time{
+	font-size: 0.2rem;
+	color:#777;
+}
+.buy>p{
+	width:6.4rem;
+	height:0.5rem;
+	line-height:0.5rem;
+	color:#333;
+	font-size:0.3rem;
+	font-family: "微软雅黑";
+	margin-bottom: 0.1rem;
+	border-bottom:dotted 0.02rem #ccc;
+}
+.buy>p>.l{
+	float:left;
+}
+.buy>p>.r{
+	float:right;
+	font-size: 0.2rem;
+}
